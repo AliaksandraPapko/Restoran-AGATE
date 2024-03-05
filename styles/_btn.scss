@@ -1,0 +1,28 @@
+.btn--white {
+    @include button-styles(white, white);
+    &:hover {
+        color: black;
+        background-color: $extension-color;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn--white {
+        @include button-styles1024;
+    }
+}
+
+.btn--black {
+    @include button-styles(black, black);
+    margin-top: 60px;
+    &:hover {
+        color: $extension-color;
+        background-color: black;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .btn--black {
+        @include button-styles1024;
+    }
+}

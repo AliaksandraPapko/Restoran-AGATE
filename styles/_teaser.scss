@@ -1,0 +1,28 @@
+.teaser {
+    background: rgba(0, 0, 0, 0.42);
+    padding: 218px 0 185px;
+    &__description {
+        font-weight: $font-normal;
+        margin: 35px 0 60px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .teaser {
+        padding: 253px 0 153px;
+        &__description {
+            font-size: $font-small-xl;
+            margin-bottom: 63px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .teaser {
+        padding: 231px 0 99px;
+        &__description {
+            font-size: $font-small-xl;
+            margin-bottom: 63px;
+        }
+    }
+}

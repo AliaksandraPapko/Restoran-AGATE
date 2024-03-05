@@ -1,0 +1,23 @@
+.product {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+@media screen and (max-width: 1024px) {
+    .product {
+        margin-bottom: 45px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .product {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 678px) {
+    .product {
+        align-items: center;
+    }
+}

@@ -1,0 +1,14 @@
+.logo {
+    font-size: $font-big;
+    font-weight: $font-normal;
+    color: $extension-color;
+    &:hover {
+        color: black;
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .logo {
+        font-size: $font-medium-x;
+    }
+}

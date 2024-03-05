@@ -1,0 +1,32 @@
+.connection {
+    margin: 60px auto;
+    &__link {
+        color: $extension-color;
+        font-size: $font-medium-x;
+        font-weight: $font-light;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+        & a:hover {
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .connection {
+        margin: 50px auto;
+        &__link {
+            font-size: $font-size-base;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .connection {
+        margin: 40px auto;
+        &__link {
+            font-size: $font-small;
+        }
+    }
+}

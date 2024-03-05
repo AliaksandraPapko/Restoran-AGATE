@@ -1,0 +1,67 @@
+@mixin section-padding($s-padding) {
+    padding: $s-padding;
+}
+
+@mixin button-styles($text-color, $br-color) {
+    display: block;
+    color: $text-color;
+    border-radius: 30px;
+    border: 2px solid;
+    border-color: $br-color;
+    margin: 0 auto;
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    font-size: $font-small-x;
+    font-weight: $font-semi-bold;
+    transition: all 1s;
+}
+
+@mixin button-styles1024 {
+    font-size: 0.68rem;
+    width: 248px;
+    height: 48px;
+    line-height: 48px;
+}
+
+@mixin favorite-dishes-icons($content, $bg-color) {
+    content: $content;
+    width: 58px;
+    height: 58px;
+    background-color: $bg-color;
+    border-radius: 50%;
+    position: absolute;
+    top: -29px;
+    left: -29px;
+    color: $extension-color;
+    font-size: 0.56rem;
+    font-weight: $font-semi-bold;
+    line-height: 58px;
+    text-align: $text-align;
+}
+
+@mixin favorite-dishes-icons1250 {
+    font-size: 0.48rem;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    top: -20px;
+    left: -20px;
+}
+
+@mixin favorite-dishes-icons1024 {
+    width: 46px;
+    height: 46px;
+    line-height: 46px;
+    top: -23px;
+    left: -23px;
+}
+
+@mixin favorite-dishes-icons768 {
+    font-size: 0.56rem;
+    width: 56px;
+    height: 56px;
+    line-height: 56px;
+    top: -25px;
+    left: -16px;
+}

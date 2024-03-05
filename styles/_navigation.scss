@@ -1,0 +1,48 @@
+.navigation {
+    display: flex;
+    align-items: center;
+    &__link {
+        color: $extension-color;
+        font-size: $font-small;
+        font-weight: $font-normal;
+        &+&::before {
+            content: " ";
+            display: inline-block;
+            margin: 0 25px;
+            width: 1.5px;
+            height: 16px;
+            background-color: #D8D5D5;
+        }
+        &:hover {
+            color: black;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .navigation {
+        &__link {
+            font-size: $font-small-xl;
+            &+&::before {
+                height: 13px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .navigation {
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .navigation {
+        &__link {
+            &+&::before {
+                margin: 0 10px;
+                width: 1px;
+            }
+        }
+    }
+}

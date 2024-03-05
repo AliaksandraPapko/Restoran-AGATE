@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-con">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/90268a4c6d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ресторан AGATE</title>
+</head>
+
+<body>
+    <div class="header-restaurant">
+        <header class="header">
+            <div class="container">
+                <a href="#" class="logo">AGATE</a>
+                <nav class="navigation">
+                    <a href="#restaurant" class="navigation__link">О ресторане</a>
+                    <a href="#menu" class="navigation__link">Меню</a>
+                    <a href="#communication" class="navigation__link">Контакты</a>
+                </nav>
+            </div>
+        </header>
+        <section class="teaser">
+            <h1 class="title">РЕСТОРАН АВТОРСКОЙ КУХНИ</h1>
+            <p class="teaser__description">Легкая атмосфера, европейская и азиатская кухня</p>
+            <a href="#communication" class="btn btn--white">Связаться с нами</a>
+        </section>
+    </div>
+    <main>
+        <section id="restaurant" class="performance">
+            <p class="performance__description">Мы понравимся вам своей легкой атмосферой, уровнем кухни и подачей блюд. Мы любим аристократичную простоту в интерьере, хорошую музыку и неповторимый ризотто нашего шефа, Максима Болова.</p>
+        </section>
+        <section class="our-dishes">
+            <div class="pictures">
+                <div class="pictures__item"><img src="img/reception.jpg" alt="ресторан"></div>
+                <div class="pictures__item"><img src="img/dishes.jpg" alt="закуска"></div>
+                <div class="pictures__item"><img src="img/dishes_glass.jpg" alt="основное блюдо"></div>
+                <div class="pictures__item"><img src="img/pomidoro.jpg" alt="капрезе"></div>
+                <div class="pictures__item"><img src="img/table.jpg" alt="интерьер"></div>
+                <div class="pictures__item"><img src="img/dessert.jpg" alt="десерт"></div>
+            </div>
+        </section>
+        <section id="menu" class="selected-dishes">
+            <h2 class="heading">Избранные блюда нашего меню</h2>
+            <p class="selected-dishes__description">Осеннее меню от шеф-повара</p>
+            <div class="product">
+                <article class="favorite-dishes favorite-dishes--red">
+                    <div class="favorite-dishes__image"><img src="img/pumpkin_soup.png" alt="тыквенный суп"></div>
+                    <div class="favorite-dishes__presentation">
+                        <h3 class="favorite-dishes__title">Тыквенный суп</h3>
+                        <p class="favorite-dishes__story">Осенний тыквенный суп. В ингредиентах тыква, шампиньоны, щепотка мускатного ореха.</p>
+                        <span class="favorite-dishes__price">1980p.</span>
+                    </div>
+                </article>
+                <article class="favorite-dishes favorite-dishes--green">
+                    <div class="favorite-dishes__image"><img src="img/pasta.png" alt="паста парпаделле"></div>
+                    <div class="favorite-dishes__presentation">
+                        <h3 class="favorite-dishes__title">Парпаделле</h3>
+                        <p class="favorite-dishes__story">Итальянская паста с богатым вкусом свеклы и томатным песто, подается с базиликом и горошком.</p>
+                        <span class="favorite-dishes__price">1400р.</span>
+                    </div>
+                </article>
+                <article class="favorite-dishes favorite-dishes--yellow">
+                    <div class="favorite-dishes__image"><img src="img/salad.png" alt="линч салат"></div>
+                    <div class="favorite-dishes__presentation">
+                        <h3 class="favorite-dishes__title">Линч-салат</h3>
+                        <p class="favorite-dishes__story">Питательный утренний салат - это просто белковая бомба для любителей фитнеса.</p>
+                        <span class="favorite-dishes__price">1300р.</span>
+                    </div>
+                </article>
+            </div>
+            <a href="#" class="btn btn--black">Посмотреть меню</a>
+        </section>
+        <section class="chef">
+            <div class="chef__photo"><img src="img/chef.jpg" alt="шеф-повар ресторана"></div>
+            <h2 class="heading">Максим Болов</h2>
+            <p class="chef__title">Шеф-повар AGATE</p>
+            <p class="chef__story"> Максим - ученик известного шеф повара Ерика Крауа. Принимает участие в крупнейших воркшопах, работал в ресторанах Франции, Бельгии и Финляндии. У Максима всегда свежее авторское видение меню.</p>
+        </section>
+    </main>
+    <footer id="communication" class="communication">
+        <h2 class="communication__title">Свяжитесь с нами</h2>
+        <ul class="connection">
+            <li class="connection__link"><a href="tel:+11234567890">+1 123 456 78 90</a></li>
+            <li class="connection__link"><a href="mailto:agate@yandex.com">agate@yandex.com</a></li>
+            <li class="connection__link"><a href="https://www.google.ru/maps/search/%D0%9E%D0%B1%D0%B2%D0%BE%D0%B4%D0%BD%D1%8B%D0%B9+%D0%BA%D0%B0%D0%BD.,+75%D0%B0/@59.9131317,30.3325766,1106m/data=!3m1!1e3?entry=ttu">Обводной канал, 75а. Санкт-Петербург</a></li>
+        </ul>
+        <p class="communication__text">Мы открыты ежедневно в 12:00 - 12:00</p>
+        <div class="socials">
+            <a href="https://www.facebook.com/" class="socials__link" aria-label="ссылка на страницу ресторана в фейсбуке"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com/" class="socials__link" aria-label="ссылка на страницу ресторана в твитере"><i class="fab fa-twitter"></i></a>
+            <a href="https://www.instagram.com/" class="socials__link" aria-label="ссылка на страницу ресторана в инстаграме"><i class="fab fa-instagram"></i></a>
+        </div>
+        <a href="#" class="up"><i class="fa-solid fa-chevron-up"></i></a>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+.socials {
+    display: flex;
+    justify-content: center;
+    &__link {
+        font-size: $font-medium;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        border-radius: 50%;
+        color: #262626;
+        background-color: $extension-color;
+        text-align: center;
+        transition: .5s;
+        &:not(:last-of-type) {
+            margin-right: 40px;
+        }
+        &:hover {
+            transform: scale(1.3);
+        }
+    }
+}

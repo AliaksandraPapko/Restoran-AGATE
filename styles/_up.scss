@@ -1,0 +1,14 @@
+.up {
+    font-size: 1.2rem;
+    width: 70px;
+    height: 70px;
+    background-color: #FFAC1C;
+    border-radius: 50%;
+    line-height: 70px;
+    z-index: 1;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    cursor: pointer;
+    transition: all .7s ease-in-out;
+}

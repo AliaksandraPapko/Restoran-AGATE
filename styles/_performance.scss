@@ -1,0 +1,27 @@
+.performance {
+    background: #F3F7EA;
+    &__description {
+        font-size: $font-medium;
+        font-weight: $font-light;
+        max-width: 941px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .performance {
+        &__description {
+            font-size: $font-small;
+            max-width: 602px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .performance {
+        &__description {
+            font-size: $font-small-x;
+            max-width: 541px;
+        }
+    }
+}

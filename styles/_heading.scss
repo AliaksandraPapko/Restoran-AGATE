@@ -1,0 +1,16 @@
+.heading {
+    font-size: $font-medium-xl;
+    font-weight: $font-semi-bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .heading {
+        font-size: $font-medium-x;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .heading {
+        font-size: $font-medium;
+    }
+}

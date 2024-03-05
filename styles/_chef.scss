@@ -1,0 +1,60 @@
+.chef {
+    background: #F3F7EA;
+    &__photo {
+        img {
+            width: 100%;
+            max-width: 398px;
+        }
+    }
+    &__title {
+        color: #474747;
+        margin: 30px 0;
+    }
+    &__story {
+        font-size: $font-medium;
+        max-width: 939px;
+        margin: 0 auto;
+        line-height: 137.3%;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .chef {
+        &__title {
+            font-size: $font-small;
+        }
+        &__story {
+            font-size: $font-small;
+            max-width: 691px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .chef {
+        &__photo {
+            img {
+                max-width: 398px;
+                width: 100%;
+            }
+        }
+        &__title {
+            font-size: $font-small-x;
+            margin: 20px 0;
+        }
+        &__story {
+            font-size: $font-small-x;
+            max-width: 626px;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .chef {
+        &__photo {
+            img {
+                max-width: 250px;
+            }
+        }
+    }
+}

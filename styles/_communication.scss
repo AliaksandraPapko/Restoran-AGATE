@@ -1,0 +1,36 @@
+.communication {
+    background: #262626;
+    color: $extension-color;
+    &__title {
+        font-size: $font-big-x;
+    }
+    &__text {
+        color: #B1B1B1;
+        font-weight: $font-light;
+        margin: 60px 0;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .communication {
+        &__title {
+            font-size: $font-big;
+        }
+        &__text {
+            font-size: $font-small-x;
+            margin: 50px 0 47px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .communication {
+        &__title {
+            font-size: $font-medium-xl;
+        }
+        &__text {
+            font-size: $font-small-xl;
+            margin: 40px 0 35px;
+        }
+    }
+}
